@@ -1,0 +1,37 @@
+.graph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .form-container {
+    flex: 1;
+    margin-right: 40px;
+    max-width: 250px;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .form-container label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .force-graph {
+    flex: 2;
+    min-width: 500px;
+    height: 600px;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
